@@ -3,46 +3,61 @@
         "make" : "iphone",
         "model" : "iphone 14",
         "price" : "€200",
-        "imageURL": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818"
+        "imageFilePath": "iphone.jpg"
 
     },
 
     {
         "make": "Samsung",
         "model": "Galaxy S20",
-        "price": "€300"
+        "price": "€300",
+        "imageFilePath": "samsung.jpg"
+
     },
 
     {
         "make": "Google",
         "model": "Pixel 5",
-        "price": "€500"
+        "price": "€500",
+        "imageFilePath": "pixel.jpg"
+
     },
+    {
+        "make" : "iphone",
+        "model" : "iphone 14",
+        "price" : "€200",
+        "imageFilePath": "iphone.jpg"
+
+    },
+
     {
         "make": "Samsung",
         "model": "Galaxy S20",
-        "price": "€300"
+        "price": "€300",
+        "imageFilePath": "samsung.jpg"
+
     },
 
     {
         "make": "Google",
         "model": "Pixel 5",
-        "price": "€500"
+        "price": "€500",
+        "imageFilePath": "pixel.jpg"
+
     },
     {
-        "make": "Samsung",
-        "model": "Galaxy S20",
-        "price": "€300"
+        "make" : "iphone",
+        "model" : "iphone 14",
+        "price" : "€200",
+        "imageFilePath": "iphone.jpg"
+
     },
 
     {
-        "make": "Google",
-        "model": "Pixel 5",
-        "price": "€500"
-    },
-    {
         "make": "Samsung",
         "model": "Galaxy S20",
-        "price": "€300"
+        "price": "€300",
+        "imageFilePath": "samsung.jpg"
+
     }
 ]

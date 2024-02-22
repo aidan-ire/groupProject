@@ -19,6 +19,7 @@
         </nav>
     </header>
     <section>
+        
     <center>
         <% info.forEach(function(Phonelist) { %>
         
@@ -26,7 +27,7 @@
             <%= Phonelist.make %> <br>
             <%= Phonelist.model %> <br>
             <%= Phonelist.price %> <br> 
-            <img src="<%= Phonelist.imageURL %>" alt="Image" width="250" height="250">
+            <img src="<%= Phonelist.imageFilePath %>" alt="Image" width="250" height="250">
             </div>
         <% }); %>
         
@@ -38,10 +39,6 @@
 
     
     
-    
-    <footer>
-        <p>&copy; Class Inc</p>
-    </footer>
 </body>
 </html>
 
