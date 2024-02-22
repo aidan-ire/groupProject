@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/product', (req, res) => {
+    res.render('product');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
