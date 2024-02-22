@@ -17,6 +17,10 @@ app.get('/product', (req, res) => {
     res.render('product');
 });
 
+app.get('/sort', (req, res) => {
+    res.render('sort');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
