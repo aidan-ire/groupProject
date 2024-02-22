@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>ED3N CAFE</title>
+</head>
+<body>    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" text="Home"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Make a Reservation</h2>
+        <form action="/submit" method="post">
+            <label for="Make">Make:</label>
+            <input type="Make" id="Make" name="Make" required><br>
+    
+            <label for="Model">Model:</label>
+            <input type="Model" id="Model" name="Model" required><br>
+    
+            <label for="Price">Price:</label>
+            <input type="Price" id="Price" name="Price" required><br>
+    
+            <label for="Image">Image:</label>
+            <input type="Image" id="Image" name="Image" required><br>
+
+            <label for="Description">Description:</label><br>
+            <textarea id="Description" name="Description" rows="4" cols="50"></textarea><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; Class Inc</p>
+    </footer>
+</body>
+</html>
+
