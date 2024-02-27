@@ -1,7 +1,7 @@
 [
     {
-        "make" : "iphone",
-        "model" : "iphone 14",
+        "make" : "Iphone",
+        "model" : "Iphone 14",
         "price" : "€200",
         "imageFilePath": "iphone.jpg"
 
@@ -20,44 +20,6 @@
         "model": "Pixel 5",
         "price": "€500",
         "imageFilePath": "pixel.jpg"
-
-    },
-    {
-        "make" : "iphone",
-        "model" : "iphone 14",
-        "price" : "€200",
-        "imageFilePath": "iphone.jpg"
-
-    },
-
-    {
-        "make": "Samsung",
-        "model": "Galaxy S20",
-        "price": "€300",
-        "imageFilePath": "samsung.jpg"
-
-    },
-
-    {
-        "make": "Google",
-        "model": "Pixel 5",
-        "price": "€500",
-        "imageFilePath": "pixel.jpg"
-
-    },
-    {
-        "make" : "iphone",
-        "model" : "iphone 14",
-        "price" : "€200",
-        "imageFilePath": "iphone.jpg"
-
-    },
-
-    {
-        "make": "Samsung",
-        "model": "Galaxy S20",
-        "price": "€300",
-        "imageFilePath": "samsung.jpg"
 
     }
 ]

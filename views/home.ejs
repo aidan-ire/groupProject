@@ -24,10 +24,12 @@
         <% info.forEach(function(Phonelist) { %>
         
             <div class="list">
-            <%= Phonelist.make %> <br>
-            <%= Phonelist.model %> <br>
-            <%= Phonelist.price %> <br> 
-            <img src="<%= Phonelist.imageFilePath %>" alt="Image" width="250" height="250">
+                <img src="<%= Phonelist.imageFilePath %>">
+                <hr>
+
+                <%= Phonelist.make %> <br>
+                <%= Phonelist.model %> <br>
+                <%= Phonelist.price %> <br> 
             </div>
         <% }); %>
         
